@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+.card {
+    position: relative;
+    background: #89f189;
+    color:#5555fa;
+    height: 350px;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+.title {
+    font-size: 14px;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.price {
+    margin-top: -15px;
+    text-align: center;
+}
+.price h5 {
+    font-size: 4em;
+    margin-top: 5px;
+    padding: 5px;
+}
+.price h5 sup {
+    font-size: 10px;
+}
+.price p {
+    margin-top: -25px;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.option {
+    position: relative;
+    padding: 0;
+
+}
+.option li {
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: bold;
+    list-style: none;
+}
+button {
+    position: relative;
+    left: 9%;
+    outline: none;
+    border: none;
+    background: #008000;
+    color: #eee;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+    box-shadow: 0 0 8px #0909e6;
+}
+.card:hover {
+    box-shadow: 0 0 0 20em inset #5555fa;
+    color: #eee;
+}
+.card:hover button {
+    background: #eee;
+    color: #5555fa;
+}
